@@ -1,4 +1,3 @@
-//this is a dashbord pagge
 @extends('admin.layouts.master')
 
 
