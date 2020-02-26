@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    @include('user.user-layouts.head')
+    @include('website.layout.head')
 </head>
 
 <body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    @include('user.user-layouts.header')
+    @include('website.layout.header')
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url(user/img/home-bg.jpg)">
+  <header class="masthead" style="background-image: url(website-assets/img/home-bg.jpg)">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -96,15 +96,15 @@
 
   <!-- Footer -->
   <footer>
-  @include('user.user-layouts.footer')
+  @include('website.layout.footer')
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="{{asset('user/vendor/jquery/jquery.min.js')}}"></script>
-  <script src="{{asset('user/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('website-assets/vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('website-assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="{{asset('user/js/clean-blog.min.js')}}"></script>
+  <script src="{{asset('website-assets/js/clean-blog.min.js')}}"></script>
 
 </body>
 
